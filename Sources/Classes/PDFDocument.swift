@@ -179,7 +179,7 @@ public struct PDFDocument {
         switch page.rotationAngle {
         case 90:
             rotationAngle = 270
-            context.translateBy(x: scaledPageSize.width, y: scaledPageSize.height)
+            context.translateBy(x: 0, y: 0)
         case 180:
             rotationAngle = 180
             context.translateBy(x: 0, y: scaledPageSize.height)

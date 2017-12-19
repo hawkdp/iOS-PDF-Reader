@@ -75,7 +75,7 @@ internal final class TiledView: UIView {
         switch leftPdfPage.rotationAngle {
         case 90:
             rotationAngle = 270
-            con.translateBy(x: layer.bounds.width, y: layer.bounds.height)
+            con.translateBy(x: 0, y: 0)
         case 180:
             rotationAngle = 180
             con.translateBy(x: 0, y: layer.bounds.height)
